@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Body defaults */
+  body {
+    @apply bg-zinc-100 text-zinc-900 antialiased font-sans; /* default font */
+  }
+
+  /* Root container */
+  #root {
+    @apply min-h-screen;
+  }
+
+  /* Headings with custom fonts */
+  h1 {
+    font-family: 'Inter', sans-serif;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h4 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h5, h6 {
+    font-family: 'Lato', sans-serif;
+  }
+
+  /* Body text and form elements */
+  p, span, label, input, button {
+    font-family: 'Open Sans', sans-serif;
+  }
+}
